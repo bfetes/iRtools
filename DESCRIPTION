@@ -1,0 +1,42 @@
+Package: iRtools
+Title: A Package for Institutional Research Offices
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Bradley", "Fetes", , "bfetes@syr.edu", role = c("cre")),
+    person("Christopher", "Dunham", "cdunham@syr.edu", role = c("aut")),
+    person("Scott", "Davis", "sdavis05@syr.edu", role = c("aut")),
+    person("Amy", "Gardiner", "akgardin@syr.edu", role = c("aut"))
+    )
+Description: The iRtools package consists of functions both original and found to help Institutional Research officies of all sizes complete work quicker and easier.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    assertthat,
+    DBI,
+    extrafont,
+    forcats,
+    httr,
+    janitor,
+    jsonlite,
+    magrittr,
+    odbc,
+    pins,
+    purrr,
+    readr,
+    readxl,
+    rio,
+    rlang,
+    scales,
+    showtext,
+    sysfonts,
+    writexl,
+    zoo
+Depends: 
+    ggplot2,
+    dplyr,
+    dbplyr,
+    tidyr,
+    stringr,
+    R (>= 2.10)
